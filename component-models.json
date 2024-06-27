@@ -147,7 +147,7 @@
         "valueType": "string"
       },
       {
-        "component": "text",
+        "component": "richtext",
         "name": "style",
         "value": "",
         "label": "Style",
