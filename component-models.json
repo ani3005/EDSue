@@ -167,7 +167,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
+        "label": "bgImage",
         "multi": false
       },
       {
