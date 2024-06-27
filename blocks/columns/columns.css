@@ -31,3 +31,72 @@
     order: unset;
   }
 }
+
+.customclass{
+  background-color: var(--half-light-color);
+}
+
+.customclass h1  {
+  font-weight: 400;
+  font-size: 58px;
+  max-width: 500px;
+  margin-bottom: 0;
+  color: #035fe6;
+  line-height: 70px;
+  font-family: var(--custom-font-light);
+  letter-spacing: 2px;
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+.customclass p {
+  color: #1D164C;
+  font-size:32px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  max-width: 500px;
+  
+}
+
+.customclass a.button {  
+  border-radius: 24px !important;
+  font-family: var(--custom-font-light);
+  font-size: 12px;
+  line-height: 20px;
+  padding: 12px 24px !important;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  transition: opacity .3s ease-in-out;
+  display: inline !important;
+}
+
+.customclass a.button:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  background-color: var(--primary-focus-color-anz) !important;
+}
+
+@media (width >= 900px) {
+  .customclass> div {
+    gap: 90px !important;
+  }
+}
+
+@media (width < 900px) {
+  .customclass > div {
+    align-items: center;
+  }
+
+  .customclass h1 #partner-up-with-your-plus-one {
+    text-align: center;
+    max-width: none;
+  }
+
+  .customclass p {
+    text-align: center;
+    max-width: none;
+  }
+}
+
+
